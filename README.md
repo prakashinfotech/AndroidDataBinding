@@ -1,0 +1,5 @@
+# AndroidDataBinding
+Android Data Binding creates a link between UI layer and the underlying data model that holds the information to display. In normal Android app, it is necessary to find the view and update the content. Every time data changes the User Interface widget (TextView, ImageView etc.) bound to it is needs to be update. Lots of hours were wasted on writing and maintaining trivial and almost useless code occupying tens or even hundreds of lines in almost all Activity.
+Android Data Binding library minimize the code for app logic with its UI view. It eliminates the need for these method calls “findViewById” and “setText.”
+The real power of data binding is when the updating of a value occurs at many points in an application code. In that situation, the developer doesn’t have to keep track of all the ways a value can be updated. Using data binding can lead to faster development times, faster execution times and more readable and maintained code.
+Android data binding generates binding classes at compile time for layouts
